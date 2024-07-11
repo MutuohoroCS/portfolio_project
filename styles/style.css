@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* utilities */
+.light{
+ color: #f4f4f4;
+ background: #320151;
+}
+.dark{
+    color:#320151 ;
+    background: #f4f4f4;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* padding: 12px; */
+    background: #320151;
+}
+nav ul li{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    flex-basis: 300px;
+    
+    
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+nav ul li a:hover{
+    background: #62019e;
+    transition: 1s;
+}
+#showcase{
+    display: flex;
+    height: 900px;
+    background: linear-gradient(#151320 40%,#320151 60%);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+
+}
+#showcase .fname{
+    color: #62019e;
+    text-shadow: 2px 3px 5px #fff;
+
+}
+#showcase h2{
+    padding: 90px;
+}
+#container{
+    max-width: 90%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainhead{
+    text-align: center;
+    padding: 1.1rem;
+    color: #62019e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.goalhead{
+    text-align: center;
+}
+.box0{
+    padding: 1.2rem;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+.box0 p{
+    padding: 1.1rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+#contact .box1 img{
+    border-radius: 50%;
+    height: 250px;
+}
+#contact{
+    margin-top: 10px;
+    padding: 1rem;
+    display:flex;
+}
+.box1{
+    padding: 14px;
+    text-align: center;
+    flex: 1;
+    margin: 0 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+}
